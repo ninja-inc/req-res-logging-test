@@ -1,0 +1,9 @@
+spring:
+  application.name: req-res-logging-test
+
+server.port: 8080
+
+logging.level:
+  org.springframework.web.servlet.mvc.method.annotation: DEBUG
+#  org.springframework.web: DEBUG
+#  org.springframework.http.converter.json.MappingJackson2HttpMessageConverter: DEBUG
